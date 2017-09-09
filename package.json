@@ -1,0 +1,36 @@
+{
+  "name": "node-alps-env",
+  "version": "0.0.1",
+  "description": "node-alps は、アルプス電気社製「環境センサモジュール 開発キット」のセンサー子機からのデータを USB 受信モジュールを経由して取得するための node モジュールです。",
+  "main": "./lib/alps-env.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ALPS",
+    "sensor",
+    "temperature",
+    "humidity",
+    "ambient",
+    "pressure",
+    "IoT",
+    "Internet of Things"
+  ],
+  "homepage": "https://github.com/futomi",
+  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futomi/node-alps-env.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "serialport": ">=5.0.0"
+  }
+}
